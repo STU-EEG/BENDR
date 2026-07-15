@@ -8,7 +8,6 @@ dependencies:
   - jupyter
   - numpy==1.26.4
   - matplotlib
-  - mne
   - objgraph
   - pandas
   - parse
@@ -22,3 +21,4 @@ dependencies:
   - pip:
     - numpy==1.26.4
     - moabb
+    - mne

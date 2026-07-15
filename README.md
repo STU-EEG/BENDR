@@ -25,3 +25,12 @@ Once you have a pre-trained model:
 ## 
 
 [logo]: BENDR-jacking-on.gif "Bender Jacking-on"
+
+## installation and usage with Micromamba
+
+```shell
+git clone --recurse-submodules git@github.com:STU-EEG/BENDR.git
+cd BENDR
+micromamba create -f environment.yml
+./pretrain.sh
+```
