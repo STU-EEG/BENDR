@@ -1,8 +1,8 @@
 import tqdm
 import pandas as pd
 
-from dn3.trainable.processes import BaseProcess
-from dn3.data.dataset import Dataset, Thinker
+from dn3.dn3.trainable.processes import BaseProcess
+from dn3.dn3.data.dataset import Dataset, Thinker
 
 
 class ThinkerwiseResultTracker:

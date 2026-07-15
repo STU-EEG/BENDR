@@ -11,10 +11,10 @@ from torch import nn
 from math import ceil
 from pathlib import Path
 
-from dn3.trainable.processes import StandardClassification, BaseProcess
-from dn3.trainable.models import StrideClassifier, Classifier
-from dn3.trainable.layers import Flatten, Permute
-from dn3.utils import DN3ConfigException
+from dn3.dn3.trainable.processes import StandardClassification, BaseProcess
+from dn3.dn3.trainable.models import StrideClassifier, Classifier
+from dn3.dn3.trainable.layers import Flatten, Permute
+from dn3.dn3.utils import DN3ConfigException
 
 
 class LinearHeadBENDR(Classifier):

@@ -1,0 +1,3 @@
+[submodule "dn3"]
+	path = dn3
+	url = git@github.com:STU-EEG/dn3.git

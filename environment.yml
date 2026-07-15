@@ -1,0 +1,24 @@
+name: bendr
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - numpy==1.26.4
+  - matplotlib
+  - mne
+  - objgraph
+  - pandas
+  - parse
+  - pip
+  - pytorch
+  - pyyaml
+  - pyyaml-include
+  - torchaudio
+  - torchvision
+  - tqdm
+  - pip:
+    - numpy==1.26.4
+    - moabb

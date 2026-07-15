@@ -7,8 +7,8 @@ import utils
 from dn3_ext import ConvEncoderBENDR, BENDRContextualizer, BendingCollegeWav2Vec
 from result_tracking import ThinkerwiseResultTracker
 
-from dn3.configuratron import ExperimentConfig
-from dn3.transforms.instance import TemporalCrop
+from dn3.dn3.configuratron import ExperimentConfig
+from dn3.dn3.transforms.instance import TemporalCrop
 
 # Since we are doing a lot of loading, this is nice to suppress some tedious information
 import mne

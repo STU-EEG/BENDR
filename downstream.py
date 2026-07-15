@@ -8,9 +8,9 @@ import time
 import utils
 from result_tracking import ThinkerwiseResultTracker
 
-from dn3.configuratron import ExperimentConfig
-from dn3.data.dataset import Thinker
-from dn3.trainable.processes import StandardClassification
+from dn3.dn3.configuratron import ExperimentConfig
+from dn3.dn3.data.dataset import Thinker
+from dn3.dn3.trainable.processes import StandardClassification
 
 from dn3_ext import BENDRClassification, LinearHeadBENDR
 
