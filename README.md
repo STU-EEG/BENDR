@@ -32,5 +32,6 @@ Once you have a pre-trained model:
 git clone --recurse-submodules git@github.com:STU-EEG/BENDR.git
 cd BENDR
 micromamba create -f environment.yml
+chmod +x pretrain.sh
 ./pretrain.sh
 ```
