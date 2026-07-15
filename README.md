@@ -32,6 +32,16 @@ Once you have a pre-trained model:
 git clone --recurse-submodules git@github.com:STU-EEG/BENDR.git
 cd BENDR
 micromamba create -f environment.yml
+# modify `pretraining.yml`
 chmod +x pretrain.sh
 ./pretrain.sh
+```
+
+In my case:
+
+```shell
+sshfs valera@storage.local:/share/Share/valera ~/data/mnt
+chmod +x pretrain-mine.sh
+tmux
+./pretrain-mine.sh
 ```
