@@ -15,7 +15,7 @@ import mne
 mne.set_log_level(False)
 
 
-def load_datasets(experiment):
+def load_datasets(experiment: ExperimentConfig) -> tuple[ConcatDataset, ConcatDataset | None, int]:
     training = list()
     validation = None
     total_thinkers = 0
