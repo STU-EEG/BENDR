@@ -5,7 +5,11 @@ datasets:
   demo:
     data_max: True
     data_min: True
-    toplevel: data/our_demo
+    toplevel: data/our_demo_with_labels
+    events:
+      - b  # blink
+      - nb  # non-blink
+    tmin: 0
     tlen: 3
     rename_channels:
       CP3: "*C3P*"
@@ -17,6 +21,8 @@ datasets:
     exclude_channels: !include configs/tueg_channel_exclusions.yml
     picks:
       - eeg
+    train_params:
+      batch_size: 2
     lr: 0.0001
 
 encoder_weights: pretrained_weights/encoder.pt
