@@ -1,0 +1,23 @@
+Configuratron:
+  preload: True
+
+datasets:
+  demo:
+    data_max: True
+    data_min: True
+    toplevel: data/our_demo
+    tlen: 3
+    rename_channels:
+      CP3: "*C3P*"
+      CP4: "*C4P*"
+      FT9: "*T1*"
+      FT10: "*T2*"
+      A1: "*REF*"
+      A2: "*REF*"
+    exclude_channels: !include configs/tueg_channel_exclusions.yml
+    picks:
+      - eeg
+    lr: 0.0001
+
+encoder_weights: pretrained_weights/encoder.pt
+context_weights: pretrained_weights/contextualizer.pt
